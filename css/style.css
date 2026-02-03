@@ -1,95 +1,156 @@
 body {
-
-  }
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1FBFFF;
+  color: white;
+}
 
 /****************   Nav Section **********************/
 nav {
-	
+	display: flex;
+  justify-content: space-between;
+  background-color: #0084B8;
+  border-bottom: 5px solid white;
+  padding: 0px 20px;
 }
 
 /***********************  Footer Section   **************************/
 footer {
-	
+  display: flex;
+  justify-content: center;
+  background-color: #0084B8;
+  border-top: 5px solid white;
+  padding: 20px;
 }
 
 /*********** Splash Page ************************/
 header {
-
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px 20px;
 }
 
 header h1 {
-  
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 50px;
+  padding-top: 10px;
 }
 
 header img {
+  width: 275px;
+  height: auto;
+  border: 5px solid white;
 }
 
 .address {
- 
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px 20px;
 }
 
 .tagline {
-  
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px 20px;
 }
 
 /************* Sections ********************/
 hr {
+  height: 2px;
+}
 
+section h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 50px;
+  padding-top: 10px;
 }
 
 section h3 {
-  
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 0px 50px;
 }
 
 section dl {
-  
+  display: grid;
+  padding: 0px 50px;
 }
 
 section ul {
-
+  list-style: circle;
+  padding: 0px 50px;
 }
 
 section a {
-
+  text-decoration: none;
+  color: orange;
 }
 
 section a:hover {
+  text-decoration: underline;
+  color: gold;
 }
 
 /**************   Projects   *****************/
 .three-col {
-	
+	display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card img {
-
+  display: block;
+  margin: 25px;
+  width: 275px;
+  height: auto;
 }
 
 .card {
-  
+  justify-items: center;
+  align-items: center;
+  border: 2px solid white;
+  background-color: #0084B8;
+  margin: 25px;
 }
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
     nav {
-      
+      flex-direction: column;
+      display: block;
+      width: 100%;
     }
 
     .three-col {
-      
+      display: grid;
+      gap: 30px;
+      grid-template-columns: 1fr;
     }
 }
 
 /**************   Contact Page   *****************/
 .one-col {
-
+	display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  border: 2px solid white;
+  background-color: #0084B8;
+  margin: 25px;
 }
 
 input {
-  
-
+  padding: 20px;
 }
 
 textarea {
-   
+  padding: 20px;
 }
