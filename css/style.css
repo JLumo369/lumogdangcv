@@ -81,6 +81,7 @@ section h2 {
   font-family: "Montserrat", sans-serif;
   padding: 0px 50px;
   padding-top: 20px;
+  text-decoration: underline;
 }
 
 section h3 {
@@ -164,6 +165,7 @@ section a:hover {
   justify-items: center;
   align-items: center;
   border: 2px solid black;
+  border-radius: 15px;
   background-color: #099ad3;
   margin: 25px;
 }
